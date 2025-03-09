@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+.parking {
+    border-radius: 32px 0px 0px 32px;
+} 
+
+
+/* .dropdown ::before {
+    content: '';
+    position: absolute;
+    top: -2rem;
+    right: 2rem;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+} */
+
+.test {
+    background: linear-gradient(280deg, #833ab4, #fd1d1d,#fcb045);
+}
