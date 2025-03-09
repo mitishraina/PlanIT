@@ -24,7 +24,7 @@ PlanIT is built using the following technologies:
 - **Real-time Bus Details**: Display live bus timings, routes, and availability.
 - **Interactive Map Integration**: Users can track buses using Google Maps API.
 - **Smart Routing Suggestions**: AI-powered recommendations for optimized transit routes.
-- **Clean UI & UX**: Built with TailwindCSS and ShadCN for a modern design.
+- **Clean UI & UX**: Built with TailwindCSS for a modern design.
 
 ## 🧑‍💻 Getting Started
 
