@@ -116,7 +116,7 @@ export default function Home() {
                             </div>
                             <div className="relative max-h-[80vh]">
                                 <img
-                                    src="/dtc.webp"
+                                    src="./dtc.webp"
                                     alt="bus"
                                     className="absolute my-1 inset-0 w-[1200px] h-[75vh] object-cover rounded-4xl m-auto"
                                 />
@@ -247,21 +247,21 @@ export default function Home() {
                                 <div className="flex justify-center">
                                     <div className="flex gap-6 text-center">
                                         <div className="bg-white rounded-2xl overflow-hidden shadow-lg h-80">
-                                            <img src="/the-front-of-the-mall.jpg" alt="Destination" className="w-98 h-56 object-cover" />
+                                            <img src="./the-front-of-the-mall.jpg" alt="Destination" className="w-98 h-56 object-cover" />
                                             <div className="">
                                                 <h3 className="font-bold text-xl flex mx-2 my-1.5">Garden Galleria Mall</h3>
                                                 <p className="text-gray-600 text-sm flex justify-center items-center gap-6 p-2"><button className="bg-black text-white hover:bg-gray-700 cursor-pointer px-4 py-2 rounded-md font-medium">Go now</button> Reviews (112)</p>
                                             </div>
                                         </div>
                                         <div className="bg-white rounded-2xl overflow-hidden shadow-lg h-80">
-                                            <img src="/sharda univ.jpeg" alt="Destination" className="w-98 h-56 object-cover" />
+                                            <img src="./sharda univ.jpeg" alt="Destination" className="w-98 h-56 object-cover" />
                                             <div className="">
                                                 <h3 className="font-bold text-xl flex mx-2 my-1.5">Sharda University</h3>
                                                 <p className="text-gray-600 text-sm flex justify-center items-center gap-6 p-2"><button className="bg-black text-white hover:bg-gray-700 cursor-pointer px-4 py-2 rounded-md font-medium">Go now</button> Reviews (1012)</p>
                                             </div>
                                         </div>
                                         <div className="bg-white rounded-2xl overflow-hidden shadow-lg h-80">
-                                            <img src="/buddh.jpg" alt="Destination" className="w-98 h-56 object-cover" />
+                                            <img src="./buddh.jpg" alt="Destination" className="w-98 h-56 object-cover" />
                                             <div className="">
                                                 <h3 className="font-bold text-xl flex mx-2 my-1.5">Buddh International</h3>
                                                 <p className="text-gray-600 text-sm flex justify-center items-center gap-6 p-2"><button className="bg-black text-white hover:bg-gray-700 cursor-pointer px-4 py-2 rounded-md font-medium">Go now</button> Reviews (289)</p>

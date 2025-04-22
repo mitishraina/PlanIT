@@ -26,7 +26,7 @@ export default function Layout({ children }) {
         <div className="min-h-screen flex flex-col">
             <header className="bg-[#C9C9C9]">
                 <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
-                    <Link to="/" className="font-bold text-5xl">
+                    <Link to="/PlanIT/" className="font-bold text-5xl">
                         <span className="flex justify-center items-center text-center gap-2">
                             PlanIT <img className="h-10" src="./icon.png" alt="logo"></img>
                         </span>
@@ -34,8 +34,8 @@ export default function Layout({ children }) {
 
                     <div className="hidden md:flex items-center space-x-6">
                         <Link
-                            to="/"
-                            className={`hover:text-white text-xl font-semibold ${location.pathname === "/" ? "text-white" : ""}`}
+                            to="/PlanIT/"
+                            className={`hover:text-white text-xl font-semibold ${location.pathname === "/PlanIT/" ? "text-white" : ""}`}
                         >
                             HOME
                         </Link>

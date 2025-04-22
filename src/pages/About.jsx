@@ -1,4 +1,9 @@
 import { Plane, Ship, Car, Users, Bus, CarFront, Ambulance, CircleParking, ParkingMeter, AlarmSmoke, DollarSign, Wrench } from "lucide-react"
+import Mitish from "../assets/mitish.jpg"
+import Rishita from "../assets/rishita.jpg"
+import Paarth from "../assets/paarth.jpeg"
+import Sarthak from "../assets/sarthak.jpeg"
+
 
 export default function About() {
   return (
@@ -57,28 +62,28 @@ export default function About() {
 
             <div className="text-center">
               <div className="w-40 h-40 mx-auto mb-4 rounded-full bg-gray-200 flex items-center justify-center overflow-hidden">
-                <img src='./mitish.jpg' alt></img>
+                <img src={Mitish} alt></img>
               </div>
               <h3 className="font-semibold text-black">Mitish Raina</h3>
               <p className="text-gray-600 text-sm">Full-stack Developer</p>
             </div>
             <div className="text-center">
               <div className="w-40 h-40 mx-auto mb-4 rounded-full bg-gray-200 flex items-center justify-center overflow-hidden">
-                <img src='./rishita.jpg' alt></img>
+                <img src={Rishita} alt></img>
               </div>
               <h3 className="font-semibold text-black">Rishita Sharma</h3>
               <p className="text-gray-600 text-sm">AI & ML</p>
             </div>
             <div className="text-center">
               <div className="w-40 h-40 mx-auto mb-4 rounded-full bg-gray-200 flex items-center justify-center overflow-hidden">
-                <img src='./paarth.jpeg' alt></img>
+                <img src={Paarth} alt></img>
               </div>
               <h3 className="font-semibold text-black">Paarth Sharma</h3>
               <p className="text-gray-600 text-sm">AI & ML</p>
             </div>
             <div className="text-center">
               <div className="w-40 h-40 mx-auto mb-4 rounded-full bg-gray-200 flex items-center justify-center overflow-hidden">
-                <img src='./sarthak.jpeg' alt></img>
+                <img src={Sarthak} alt></img>
               </div>
               <h3 className="font-semibold text-black">Sarthak Sharma</h3>
               <p className="text-gray-600 text-sm">IoT</p>
@@ -168,11 +173,11 @@ export default function About() {
           </div>
         </div>
         <div className="p-7 py-10">
-        <p className="text-black text-4xl font-semibold">FOR YOU READ:</p>
+          <p className="text-black text-4xl font-semibold">FOR YOU READ:</p>
           <a href='https://www.americanpiezo.com/blog/how-piezoelectric-sensors-work/' className="text-blue-700 hover:underline font-semibold">AmericanPiezo</a> <br />
           <div className="flex flex-wrap justify-center gap-10">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/JoRVcys5PB8?si=a34GXwal5OKFTWAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/_XABS0dR15o?si=l_4wxVjYGGWAHWbN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JoRVcys5PB8?si=a34GXwal5OKFTWAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_XABS0dR15o?si=l_4wxVjYGGWAHWbN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
       </section>
